@@ -1,0 +1,10 @@
+br\ufes\descontoservice2\services\DescontoPorValorTotal.class
+br\ufes\descontoservice2\services\CalculadoraDeDescontoService.class
+br\ufes\descontoservice2\DescontoService2.class
+br\ufes\descontoservice2\interfaces\IPedido.class
+br\ufes\descontoservice2\services\DescontoPorQuantidade.class
+br\ufes\descontoservice2\models\Cliente.class
+br\ufes\descontoservice2\interfaces\IDesconto.class
+br\ufes\descontoservice2\models\Pedido.class
+br\ufes\descontoservice2\services\DescontoPorFilidade.class
+br\ufes\descontoservice2\interfaces\ICliente.class
