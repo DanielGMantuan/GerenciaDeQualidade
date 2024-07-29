@@ -1,0 +1,19 @@
+NomeTeste;Descricao;NomeCliente;AnosFidelidade;ValorPedido;QuantidadeItens;ResultadoEsperado;Error
+CT1;Testando valor invalido para quantidade de itens;Maria;0;40;0;-1;Falha: A quantidade de itens deve ser maior que 0.
+CT2;Testando primeiro valor valido para quanitdade de itens;José;0;40;1;2;
+CT3;Testando lime (10) de mudanca de desconto para quantidade de itens;Antonio;0;40;10;2;
+CT4;Testando mudanca de valor no desconto para quantidade de itens;Clayton;0;40;11;4;
+CT5;Testando lime (20) de mudanca de desconto para quantidade de itens;Arthur;0;40;20;4;
+CT6;Testando mudanca de valor no desconto para quantidade de itens;Eriani;0;40;21;6;
+CT7;Testando valor invalido para total do pedido;Álvaro;0;0;1;-1;Falha: O valor total do pedido deve ser positivo.
+CT8;Testando primeiro valor valido para total do pedido;Mário;0;1;1;0.05;
+CT9;Testando lime (500.00) de mudanca de desconto para total do pedido;Natan;0;500;1;25;
+CT10;Testando mudanca de valor no desconto para totalPedido;Heflain;0;501;1;50.1;
+CT11;Testando lime (1000.00) de mudanca de desconto para total do pedido;Gabriel;0;1000;1;100;
+CT12;Testando mudanca de valor no desconto para quantidade de itens;Rafael;0;1001;1;150.15;
+CT13;Testando valor invalido para anos fidelidade;Marlan;-1;600;1;-1;Falha: O número de anos de fidelidade deve ser não negativo.
+CT14;Testando primeiro valor valido para anos fidelidade;Bernardo;0;600;1;60;
+CT15;Testando lime (1) de mudanca de desconto para anos fidelidade;Filipe;1;600;1;60;
+CT16;Testando mudanca de valor no desconto para anos fielidade;Daniel;2;600;1;102;
+CT17;Testando lime (25) de mudanca de desconto para anos fidelidade;Thalles;5;600;1;102;
+CT18;Testando mudanca de valor no desconto para anos fielidade;Matheus;6;600;1;132;
