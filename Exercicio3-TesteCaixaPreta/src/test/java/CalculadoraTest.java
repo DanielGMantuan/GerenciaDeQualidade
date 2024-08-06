@@ -7,7 +7,7 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 
 public class CalculadoraTest {
     @ParameterizedTest(name = "{0}")
-    @CsvFileSource(resources = "/CT.csv", delimiterString = ";",numLinesToSkip = 1)
+    @CsvFileSource(resources = "/128CTs.csv", delimiterString = ";",numLinesToSkip = 1)
     public void CalculadoraTest(String nomeTeste, String descricao, String nomeCliente,int fidelidade, double valorTotal, int qtdItens,  double resultadoEsperado, String error) {
         if(error == null){
             Cliente cliente = new Cliente(nomeCliente, fidelidade);
