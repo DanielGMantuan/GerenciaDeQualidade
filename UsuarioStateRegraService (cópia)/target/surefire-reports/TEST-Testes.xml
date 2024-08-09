@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Testes" time="0.047" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Testes" time="0.054" tests="3" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\NOTE155\AppData\Local\Temp\surefire17168754261745313375\surefirebooter96807339379306080.jar C:\Users\NOTE155\AppData\Local\Temp\surefire17168754261745313375 2024-08-08T22-51-03_260-jvmRun1 surefire1555833859718569880tmp surefire_07520760853985516384tmp"/>
+    <property name="sun.java.command" value="C:\Users\NOTE155\AppData\Local\Temp\surefire4208658292086805959\surefirebooter12519735898889069259.jar C:\Users\NOTE155\AppData\Local\Temp\surefire4208658292086805959 2024-08-08T23-51-20_821-jvmRun1 surefire2516574331165494042tmp surefire_02708143898479249908tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="Testes"/>
     <property name="surefire.test.class.path" value="C:\Users\NOTE155\Documents\NetBeansProjects\GerenciaDeQualidade\UsuarioStateRegraService (cópia)\target\test-classes;C:\Users\NOTE155\Documents\NetBeansProjects\GerenciaDeQualidade\UsuarioStateRegraService (cópia)\target\classes;C:\Users\NOTE155\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\NOTE155\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\NOTE155\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\NOTE155\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\NOTE155\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\NOTE155\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\NOTE155\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\NOTE155\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;C:\Users\NOTE155\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\NOTE155\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\NOTE155\AppData\Local\Temp\surefire17168754261745313375\surefirebooter96807339379306080.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\NOTE155\AppData\Local\Temp\surefire4208658292086805959\surefirebooter12519735898889069259.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22+36-2370"/>
@@ -60,9 +60,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="TesteCriarUsuarioInvalido" classname="Testes" time="0.028">
-    <failure message="expected: &lt;O nome do usuário não pode ser vazio ou nulo.dsdfa&gt; but was: &lt;O nome do usuário não pode ser vazio ou nulo&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <O nome do usuário não pode ser vazio ou nulo.dsdfa> but was: <O nome do usuário não pode ser vazio ou nulo>
-	at Testes.TesteCriarUsuarioInvalido(Testes.java:24)
-]]></failure>
+  <testcase name="ExplorarAcoesDoAdministrador" classname="Testes" time="0.032"/>
+  <testcase name="TesteCriarUsuarioInvalido" classname="Testes" time="0.001"/>
+  <testcase name="ExplorarAtivarUsuarioNovo" classname="Testes" time="0.012">
+    <error message="Usuário banido temporariamente não pode ser advertido" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Usuário banido temporariamente não pode ser advertido
+	at Testes.ExplorarAtivarUsuarioNovo(Testes.java:59)
+</error>
   </testcase>
 </testsuite>

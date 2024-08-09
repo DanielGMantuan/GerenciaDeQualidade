@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Testes
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.047 s <<< FAILURE! - in Testes
-TesteCriarUsuarioInvalido  Time elapsed: 0.028 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <O nome do usuário não pode ser vazio ou nulo.dsdfa> but was: <O nome do usuário não pode ser vazio ou nulo>
-	at Testes.TesteCriarUsuarioInvalido(Testes.java:24)
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.054 s <<< FAILURE! - in Testes
+ExplorarAtivarUsuarioNovo  Time elapsed: 0.012 s  <<< ERROR!
+java.lang.IllegalStateException: Usuário banido temporariamente não pode ser advertido
+	at Testes.ExplorarAtivarUsuarioNovo(Testes.java:59)
 
