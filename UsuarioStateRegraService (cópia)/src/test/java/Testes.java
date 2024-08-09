@@ -34,6 +34,24 @@ public class Testes {
     }
     
     @Test
+    public void ExplorandoUsuarioNovo(){
+        assertEquals("Novo", normal.getNomeEstado(), "O estado inicial do usuario deve ser Novo");
+        
+        IllegalStateException adesException = assertThrows(IllegalStateException.class, () -> {
+            RegraUsuarioService.desativar(normal, adm);
+        });
+        assertEquals("Usuário novo não pode ser desativado", adesException.getMessage());
+        
+        IllegalStateException adException = assertThrows(IllegalStateException.class, () -> {
+            RegraUsuarioService.advertir(normal, adm);
+        });
+        assertEquals("Usuário novo não pode ser advertido", adException.getMessage());
+        
+        RegraUsuarioService.ativar(normal, adm);
+        assertEquals("Ativo", normal.getNomeEstado(), "Ao ser ativado o usuario deve ter o estado Ativo");
+    }
+    
+    @Test
     public void ExplorarAcoesDoAdministrador(){
         //Explorando se as acoes dos administradores sao exclusivas
         SecurityException aException = assertThrows(SecurityException.class, () ->{
