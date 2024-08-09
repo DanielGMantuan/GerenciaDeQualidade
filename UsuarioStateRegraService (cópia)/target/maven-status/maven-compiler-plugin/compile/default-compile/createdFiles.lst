@@ -1,0 +1,11 @@
+br\usuario\modelo\BanidoDefinitivo.class
+br\usuario\modelo\BanidoTemporario.class
+br\usuario\modelo\Desativado.class
+br\usuario\modelo\RegraUsuarioService.class
+br\usuario\modelo\Ativo.class
+br\usuario\modelo\BanidoTemporario$2.class
+br\usuario\modelo\Novo.class
+br\usuario\modelo\Estado.class
+br\usuario\modelo\Usuario.class
+br\usuario\modelo\BanidoTemporario$1.class
+br\usuario\modelo\TipoUsuario.class
