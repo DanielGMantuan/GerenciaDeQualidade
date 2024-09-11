@@ -1,0 +1,9 @@
+br\ufes\streammusica\Ordenacao\BubbleSort.class
+br\ufes\streammusica\Busca\BuscaSequencial.class
+br\ufes\streammusica\Musica.class
+br\ufes\streammusica\StreamMusica.class
+br\ufes\streammusica\Busca\BuscaStrategy.class
+br\ufes\streammusica\Busca\BuscaBinaria.class
+br\ufes\streammusica\MusicaRepository.class
+br\ufes\streammusica\Ordenacao\InsertionSort.class
+br\ufes\streammusica\Ordenacao\OrdenacaoStrategy.class
