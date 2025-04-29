@@ -1,11 +1,13 @@
 <h1 id="tittle"> Gerencia de qualidade </h1>
-<h2 id="subtittle"> Projeto - UFES </h2>
+<p id="subtittle"> Projeto - UFES </p>
 <!-- <a id="project-link" > {{projeto link}} </a> -->
 
+<h3>Descrição<h3>
 <p id="description"> 
   Projeto da matéria de qualidade de software com a finalidade de explorar testes unitários, de integração e caixa preta utilizando do Mockito
 </p>
 
+<h3>Tecnologias<h3>
 <ul id="tecnologies">
   <li>
     <img height="32px" width="32px" src="https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/java/java-original.svg">
